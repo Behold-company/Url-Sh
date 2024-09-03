@@ -5,7 +5,7 @@ import sqlite3
 app = Flask(__name__)
 
 # کلید API و Host برای RapidAPI
-RAPIDAPI_KEY = '1c2d52b392msh514965568dc4419p15461bjsn0ecdd0667e4e'
+RAPIDAPI_KEY = 'YOUR API KEY'
 RAPIDAPI_HOST = 'url-shortener-service.p.rapidapi.com'
 
 def shorten_url(long_url):
